@@ -30,7 +30,6 @@ function setup() {
   car.scale = 0.4;
   car.debug = false;
   car.setCollider("rectangle", 0, 0, 500, 250);
-  //stop.debug = true;
   gameState = PLAY;
   restart = createSprite(600, 150);
   restart.addImage(restartImage);
